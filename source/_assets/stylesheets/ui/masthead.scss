@@ -1,28 +1,31 @@
 @import "common";
 
-.brand {
+.masthead {
   position: fixed;
-  top: 75px;
+  top: 0;
+  right: 0;
   left: 0;
+  padding: 75px 12% 50px 12%;
+  background: $body-background;
 
-  > a {
-    display: block;
-    width: 54px;
-    height: 54px;
-    text-align: center;
-    font: 36px/57px "proximanova-black";
-    text-decoration: none;
-    background: $pink;
-    color: white;
+  .brand {
+    position: absolute;
+    top: 75px;
+    left: 0;
 
-    > span {
-      display: none;
+    > a {
+      display: block;
+      width: 54px;
+      height: 54px;
+      text-align: center;
+      font: 36px/57px "proximanova-black";
+      text-decoration: none;
+      background: $pink;
+      color: white;
+
+      > span {
+        display: none;
+      }
     }
   }
-}
-
-.masthead {
-  margin-top: 75px;
-  margin-bottom: 50px;
-  padding: 9px 0;
 }

@@ -1,10 +1,24 @@
 ---
 
 title: Bio
-sidebar: "bio_sidebar.haml"
+column_count: two
 
 ---
 
+{% contentfor sidebar %}
+
+![Me]({{ "images/me.jpg" | asset_path }})
+
+Photo by my fiancee [@bluerocket](http://twitter.com/bluerocket), pictured left.
+"The Two Of Us" &bull; Millenium Square, Bristol &bull; 2009
+
+## TLDR;
+
+[Rum](/), [Coffee](/), Walking, Riding, [Kids](/), Ruby, Javascript, Typography, Hotels, Restaurants, Music tech, Meetups, Speaking & Writing.
+
+Not necessarily in that order.
+
+{% endcontentfor %}
 
 # "Hunter of the Great North"
 

@@ -1,7 +1,7 @@
 @import "common";
 
-.view-content {
-  max-width: 650px;
+.view-container {
+  display: table;
 
   img {
     display: block;
@@ -10,7 +10,7 @@
   }
 
   p {
-    margin: 15px 0;
+    margin-bottom: 15px;
     max-width: 540px;
   }
 
@@ -33,4 +33,29 @@
       }
     }
   }
+}
+
+.view-content,
+.view-side-content {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.view-side-content {
+  max-width: 300px;
+  padding-right: 50px;
+  font: 12px/1.5 "proximanova-semibold";
+  color: $sidebar-text;
+
+  h2 {
+    margin-top: 50px;
+  }
+
+  a {
+    color: $sidebar-text;
+  }
+}
+
+.view-content {
+  max-width: 650px;
 }

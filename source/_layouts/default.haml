@@ -10,9 +10,17 @@
 
     {% haml masthead.haml %}
 
-    .view-content
+    {% capture result %}{% contentblock sidebar %}{% endcapture %}
 
-      {{ content }}
+    .view-container
+
+      {% if result != "" %}
+
+      %aside.view-side-content {{ result }}
+
+      {% endif %}
+
+      .view-content {{ content }}
 
     {% haml footer.haml %}
 

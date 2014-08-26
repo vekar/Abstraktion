@@ -2,12 +2,12 @@
 @import "compass/reset";
 
 body {
+  padding-bottom: 75px;
   font: 14px/1.5 "proximanova-light";
   background: $body-background;
   color: $body-text;
 }
 
 .container {
-  margin: 75px;
-  @include positional;
+  margin: 0 15%;
 }

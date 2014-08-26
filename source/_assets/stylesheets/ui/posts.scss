@@ -1,6 +1,6 @@
 @import "common";
 
-.post-content {
+.view-content {
   max-width: 650px;
 
   img {
@@ -16,12 +16,12 @@
 
   ul {
     @include column-count(2);
+    @include column-gap(20px);
 
     li {
       margin-bottom: 18px;
       font: 10px/1.2 "proximanova-semibold";
-      letter-spacing: 1px;
-      text-transform: uppercase;
+      @include blocky-text;
       color: $dark-body-text;
 
       p {

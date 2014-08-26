@@ -5,12 +5,11 @@ h2 {
   color: $secondary-heading-grey;
 }
 
-.post-content {
+.view-content {
 
   h1 {
+    @include blocky-text;
     font: 60px/1 "proximanova-black";
-    text-transform: uppercase;
-    letter-spacing: 3px;
     color: white;
   }
 

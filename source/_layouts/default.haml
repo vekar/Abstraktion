@@ -6,13 +6,13 @@
 
 %body
 
-  {% haml masthead.haml %}
-
   .container
 
-    .post-content
+    {% haml masthead.haml %}
+
+    .view-content
 
       {{ content }}
 
-  {% haml footer.haml %}
+    {% haml footer.haml %}
 

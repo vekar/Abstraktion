@@ -7,10 +7,12 @@ $body-text: #858F99;
 $dark-body-text: #454B52;
 $secondary-heading-grey: #AAB1B8;
 $hr-background: #353B40;
+$footer-background: #26292D;
 $pink: #FF2A7F;
 
 // Mixins
-@mixin positional {
-  margin-left: 15%;
-  margin-right: 15%;
+
+@mixin blocky-text {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }

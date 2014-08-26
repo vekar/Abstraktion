@@ -1,0 +1,15 @@
+@import "common";
+
+.footer {
+  @include inline-block;
+  margin-top: 75px;
+  @include blocky-text;
+  font: 10px/1 "proximanova-semibold";
+  padding: 15px 18px;
+  background: $footer-background;
+  color: $dark-body-text;
+
+  > span {
+    margin: 0 12px;
+  }
+}

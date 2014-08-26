@@ -1,1 +1,15 @@
 @import "compass";
+
+// Colours
+
+$body-background: #1E2124;
+$body-text: #858F99;
+$secondary-heading-grey: #AAB1B8;
+$hr-background: #353B40;
+$pink: #FF2A7F;
+
+// Mixins
+@mixin positional {
+  margin-left: 15%;
+  margin-right: 15%;
+}

@@ -10,7 +10,7 @@ I'm a 24 year old Bristolian, currently hailing from the small North West town o
 
 ***
 
-### Professional
+## Professional
 
 Professionally, I'm the Product Director and Co-Founder of [Beatroot](http://beatroot.com), a music discovery service with the lofty goal of making the hairs on the back of your neck stand on end.
 
@@ -22,7 +22,7 @@ Since starting my first fledgling company 8 years ago, I've spent more time than
 
 ***
 
-### Digital Edge
+## Digital Edge
 
 I set up Digital Edge after moving to Macclesfield in 2011, to host meetups and presentation nights showcasing and connecting the local Digital and Creative companies. Since then the group has grown to a number in excess of 200 and I'm continually impressed with the diversity and resillience of our members.
 
@@ -34,7 +34,7 @@ If you're North West based, I've love to see you at an upcoming event.
 
 ***
 
-### Speaking
+## Speaking
 
 While I'm by no means an accomplished presenter, I have been known to present at conferences and meetups. I've only recently come to appreciate the value of speaking publicly and am looking to do more of it. The same is true of writing.
 

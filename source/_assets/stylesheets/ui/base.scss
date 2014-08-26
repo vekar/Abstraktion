@@ -1,2 +1,17 @@
 @import "common";
 @import "compass/reset";
+
+body {
+  font: 14px/1.5 "proximanova-light";
+  background: $body-background;
+  color: $body-text;
+}
+
+a {
+  color: $body-text;
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}

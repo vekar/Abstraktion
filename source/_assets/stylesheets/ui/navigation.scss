@@ -1,0 +1,14 @@
+@import "common";
+
+.primary-nav {
+  margin-top: 6px;
+
+  li {
+    @include inline-block;
+
+    &:not(:last-of-type):after {
+      content: "/";
+      margin: 0 15px;
+    }
+  }
+}

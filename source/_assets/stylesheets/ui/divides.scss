@@ -1,0 +1,9 @@
+@import "common";
+
+hr {
+  margin: 50px 0;
+  text-align: left;
+  width: 24px;
+  border: none;
+  border-top: 1px solid $hr-background;
+}

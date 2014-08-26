@@ -12,7 +12,7 @@ It occured to me that, as we discontinued the Abstraktion name to become [Beatro
 
 ***
 
-### The Design
+## The Design
 
 I designed the website, roughly, with Sketch. While I grew up on Photoshop, I've recently found a more welcoming home with [Sketch](http://bohemiancoding.com/sketch/) and use it religiously for establishing the broad brush strokes of any new piece of work. I'm a minimalist and pragmatist, and wanted this website's design to serve solely as a vehicle for the content, ensuring it is legible and enjoyable. I hope I've achieved that.
 
@@ -20,7 +20,7 @@ Typography is an unhealthy obsession of mine, and while I'd like to have made us
 
 ***
 
-### The Build
+## The Build
 
 Simplistic and elegant content management comes courtesy of [Jekyll](http://jekyllrb.com). I initially experimented with Jekyll on an ill-fated Abstraktion portfolio, one of many that failed to launch during our 3 year life span, and more recently used it for the Beatroot website. Having suffered psychological trauma from far too many "big CMS" projects, how could I not love the simple, elegant combination of [Markdown](http://daringfireball.net/projects/markdown/) and [Git](http://github.com) for managing content?
 
@@ -30,4 +30,4 @@ Despite nearly all my professional work involving heavy Javascript these days, I
 
 The website is hosted on Amazon S3, for less than $1 per month, and is easily deployed via the [s3 website](https://github.com/laurilehmijoki/s3_website) gem.
 
-##### You can find the source code, and possibly some sweary commit messages, on [Github](/).
+## You can find the source code, and possibly some sweary commit messages, on [Github](/).

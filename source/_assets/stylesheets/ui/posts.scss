@@ -1,0 +1,12 @@
+@import "common";
+
+.post-content {
+  margin: 75px;
+  max-width: 650px;
+  @include positional;
+
+  p {
+    margin: 15px 0;
+    max-width: 540px;
+  }
+}

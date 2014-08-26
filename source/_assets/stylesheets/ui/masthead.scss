@@ -1,0 +1,28 @@
+@import "common";
+
+.brand {
+  position: fixed;
+  top: 75px;
+  left: 0;
+
+  > a {
+    display: block;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    font: 36px/57px "proximanova-black";
+    text-decoration: none;
+    background: $pink;
+    color: white;
+
+    > span {
+      display: none;
+    }
+  }
+}
+
+.masthead {
+  margin: 75px;
+  padding: 9px 0;
+  @include positional;
+}

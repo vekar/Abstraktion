@@ -11,6 +11,28 @@ h2 {
     @include blocky-text;
     font: 60px/1 "proximanova-black";
     color: white;
+
+    &.title-muted {
+      font-size: 48px;
+
+      a {
+        text-decoration: none;
+        color: $muted-heading-grey;
+
+        span {
+          display: block;
+          color: $dark-body-text;
+        }
+
+        &:hover {
+          color: white;
+
+          span {
+            color: $muted-heading-grey;
+          }
+        }
+      }
+    }
   }
 
 }

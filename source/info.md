@@ -8,7 +8,9 @@ sidebar: "bio_sidebar.haml"
 
 # "Hunter of the Great North"
 
-I'm a 24 year old Bristolian, currently hailing from the small North West town of Macclesfield. I'm a father of two boisterous and brilliant daughters, long-term fiancee and compulsive nail-biter. I like well aged Rum, fruity black coffee and crisp Autumn mornings.
+I'm a 24 year old Bristolian, currently hailing from the small North West town of Macclesfield. I'm a father of two boisterous and brilliant daughters, long-term fiancee and compulsive nail-biter. Perhaps the three are related?
+
+I like well aged Rum, fruity black coffee and crisp Autumn mornings.
 
 ***
 

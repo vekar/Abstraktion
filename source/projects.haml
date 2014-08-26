@@ -1,0 +1,20 @@
+---
+
+title: Work
+
+---
+
+{% for project in site.projects limit: 5 %}
+
+.project-excerpt
+
+  %h1.title-muted
+
+    %a{ href: "{{ project.url }}" }
+
+      %span {{ project.client }}
+      {{ project.title }}
+
+  %hr
+
+{% endfor %}

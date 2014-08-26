@@ -19,18 +19,20 @@ Abstraktion was a UK based digital product development company. We worked hard, 
 
 * 2014 [Street Kitchen](/)
 
-* 2014 [Atticus at Southbank Centre](/)
+* 2013 [Avicenna](/)
 
-* 2014 [WSA World Tour](/)
+* 2013 [Atticus at Southbank Centre](/)
 
-* 2014 [Google Chrome News](/)
+* 2013 [WSA World Tour](/)
 
-* 2014 [Toyota Adventure Discount](/)
+* 2012 [Google Chrome News](/)
 
-* 2014 [Spotlight for English Table Tennis](/)
+* 2012 [Toyota Adventure Discount](/)
+
+* 2012 [Spotlight for English Table Tennis](/)
 
 ***
 
 To serve as some form of legacy for what Abstraktion did and achieved, I will be using the Abstraktion moniker as my own portfolio and journal going forward, showcasing and documenting our journey into startup life.
 
-You can read some of our original thoughts and the process of our transition in my Medium article, [Change is the end result of all true learning](/).
+You can read some of our original thoughts and the process of our transition in my Medium article, [Change is the end result of all true learning](https://medium.com/@chrsgrrtt/change-is-the-end-result-of-all-true-learning-d73d9dd724d6).

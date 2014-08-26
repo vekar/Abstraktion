@@ -32,4 +32,5 @@ defaults:
     values:
       layout: default
 collections:
-  - projects
+  projects:
+    output: true

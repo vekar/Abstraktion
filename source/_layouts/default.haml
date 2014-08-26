@@ -1,0 +1,16 @@
+!!!
+
+%head
+
+  %title= "{{ page.title }}"
+
+  {% haml head.haml %}
+
+%body
+
+  {% haml masthead.haml %}
+
+  {{ content }}
+
+  {% haml footer.haml %}
+

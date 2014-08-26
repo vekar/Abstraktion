@@ -1,0 +1,33 @@
+# Build settings
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+encoding: UTF-8
+permalink: pretty
+exclude:
+  - .gitignore
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+source: source
+assets:
+  cachebust: hard
+  cache: false
+  sources:
+    - _assets
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+  compress:
+    css: sass
+    js: uglifier
+  gzip: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default

@@ -11,4 +11,15 @@ a {
     color: white;
     text-decoration: none;
   }
+
+  &.post-link {
+    @include inline-block;
+    margin-top: 15px;
+    padding-left: 20px;
+    font: 12px/1 "proximanova-bold";
+    text-decoration: none;
+    background: asset-url("images/link_icon.png") left no-repeat;
+    background-size: 14px 12px;
+    color: $dark-body-text;
+  }
 }

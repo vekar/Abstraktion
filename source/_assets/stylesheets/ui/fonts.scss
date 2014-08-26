@@ -4,7 +4,8 @@ $variations: (
   "light",
   "regular",
   "semibold",
-  "bold"
+  "bold",
+  "black"
 );
 
 @each $variation in $variations {

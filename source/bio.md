@@ -1,8 +1,10 @@
 ---
 
 title: Bio
+sidebar: "bio_sidebar.haml"
 
 ---
+
 
 # "Hunter of the Great North"
 

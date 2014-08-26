@@ -1,0 +1,17 @@
+---
+
+title: Abstraktion, Portfolio of Chris Garrett
+
+---
+
+{% for post in site.posts limit: 5 %}
+
+.post
+
+  %img{ src: "{{ post.image | asset_path }}" }/
+
+  %h1 {{ post.title }}
+
+  {{ post.content }}
+
+{% endfor %}

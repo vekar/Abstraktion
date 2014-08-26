@@ -1,50 +1,33 @@
 ---
 
 title: Good-bye world&hellip;
+image: post_images/goodbye.jpg
 
 ---
 
 Abstraktion was a UK based digital product development company. We worked hard, had fun and delivered game-changing applications for brands like Universal Music, Domino Records, Spotify, The BBC, Channel 4, Toyota and Google.
 
-## In 2014 we closed our doors to start a new journey, [Beatroot](http://beatroot.com). This is our retrospective…
+## In 2014 we closed our doors to start a new journey, [Beatroot](http://beatroot.com). This is our retrospective&hellip;
 
 ***
 
-*
-  ##### 2014
-  [David Lloyd Playlist for Universal Music](/)
+* 2014 [David Lloyd Playlist for Universal Music](/)
 
-*
-  ##### 2014
-  [Domino Records Release Manager](/)
+* 2014 [Domino Records Release Manager](/)
 
-*
-  ##### 2014
-  [Guilty Pledgers for Spotify](/)
+* 2014 [Guilty Pledgers for Spotify](/)
 
-*
-  ##### 2014
-  [Street Kitchen](/)
+* 2014 [Street Kitchen](/)
 
-*
-  ##### 2014
-  [Atticus at Southbank Centre](/)
+* 2014 [Atticus at Southbank Centre](/)
 
-*
-  ##### 2014
-  [WSA World Tour](/)
+* 2014 [WSA World Tour](/)
 
-*
-  ##### 2014
-  [Google Chrome News](/)
+* 2014 [Google Chrome News](/)
 
-*
-  ##### 2014
-  [Toyota Adventure Discount](/)
+* 2014 [Toyota Adventure Discount](/)
 
-*
-  ##### 2014
-  [Spotlight for English Table Tennis](/)
+* 2014 [Spotlight for English Table Tennis](/)
 
 ***
 

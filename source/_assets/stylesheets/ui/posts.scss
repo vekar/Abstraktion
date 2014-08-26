@@ -1,12 +1,36 @@
 @import "common";
 
 .post-content {
-  margin: 75px;
   max-width: 650px;
-  @include positional;
+
+  img {
+    display: block;
+    margin-bottom: 50px;
+    max-width: 100%;
+  }
 
   p {
     margin: 15px 0;
     max-width: 540px;
+  }
+
+  ul {
+    @include column-count(2);
+
+    li {
+      margin-bottom: 18px;
+      font: 10px/1.2 "proximanova-semibold";
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $dark-body-text;
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
   }
 }

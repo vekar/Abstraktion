@@ -1,0 +1,14 @@
+@import "common";
+
+a {
+  color: $body-text;
+
+  h2 & {
+    color: $secondary-heading-grey;
+  }
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}

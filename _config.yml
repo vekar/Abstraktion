@@ -1,7 +1,8 @@
 # Build settings
 markdown: rdiscount
 rdiscount:
-  extensions: [smart]
+  extensions:
+    - smart
 encoding: UTF-8
 permalink: pretty
 exclude:
@@ -24,10 +25,11 @@ assets:
     css: sass
     js: uglifier
   gzip: true
-
 defaults:
   -
     scope:
       path: ""
     values:
       layout: default
+collections:
+  - projects

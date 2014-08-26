@@ -2,17 +2,17 @@
 
 %head
 
-  %title= "{{ page.title }}"
-
   {% haml head.haml %}
 
 %body
 
   {% haml masthead.haml %}
 
-  .post-content
+  .container
 
-    {{ content }}
+    .post-content
+
+      {{ content }}
 
   {% haml footer.haml %}
 

@@ -7,11 +7,7 @@ body {
   color: $body-text;
 }
 
-a {
-  color: $body-text;
-
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
+.container {
+  margin: 75px;
+  @include positional;
 }

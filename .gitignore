@@ -3,3 +3,4 @@ _site
 vendor/bundle
 .DS_STORE
 .sass-cache
+s3_config.yml

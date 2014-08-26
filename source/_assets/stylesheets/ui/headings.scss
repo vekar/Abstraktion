@@ -4,6 +4,10 @@ h2 {
   margin-bottom: 15px;
   font: 14px/1 "proximanova-regular";
   color: $secondary-heading-grey;
+
+  .masthead & {
+    margin: 0;
+  }
 }
 
 .view-content {

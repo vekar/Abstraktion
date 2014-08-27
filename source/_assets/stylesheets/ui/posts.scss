@@ -1,7 +1,15 @@
 @import "common";
 
 .view-container {
-  display: table;
+  @include greater-than(640px) {
+    display: table;
+
+    .view-content,
+    .view-side-content {
+      display: table-cell;
+      vertical-align: top;
+    }
+  }
 
   img {
     display: block;
@@ -35,17 +43,15 @@
   }
 }
 
-.view-content,
 .view-side-content {
-  display: table-cell;
-  vertical-align: top;
-}
-
-.view-side-content {
-  max-width: 300px;
-  padding-right: 50px;
+  margin-bottom: 50px;
   font: 12px/1.5 "proximanova-semibold";
   color: $sidebar-text;
+
+  @include greater-than(640px) {
+    max-width: 300px;
+    padding-right: 50px;
+  }
 
   h2 {
     margin-top: 50px;

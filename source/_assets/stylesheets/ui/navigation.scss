@@ -11,7 +11,8 @@
       text-decoration: none;
       color: $dark-body-text;
 
-      &:hover {
+      &:hover,
+      &:focus {
         color: white;
       }
     }

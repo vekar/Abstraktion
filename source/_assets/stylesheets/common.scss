@@ -18,3 +18,21 @@ $pink: #FF2A7F;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
+@mixin less-than($size) {
+  @media only screen and (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin greater-than($size) {
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin between($lower, $upper) {
+  @media only screen and (min-width: $lower) and (max-width: $upper) {
+    @content;
+  }
+}

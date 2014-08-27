@@ -32,4 +32,4 @@ Despite nearly all my professional work involving heavy Javascript these days, I
 
 The website is hosted on Amazon S3, for less than $1 per month, and is easily deployed via the [s3 website](https://github.com/laurilehmijoki/s3_website) gem.
 
-## You can find the source code, and possibly some sweary commit messages, on [Github](/).
+## You can find the source code, and possibly some sweary commit messages, on [Github](https://github.com/chrsgrrtt/Abstraktion).

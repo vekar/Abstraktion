@@ -1,5 +1,7 @@
 @import "common";
 
 .project-image {
-  width: 780px;
+  @include greater-than(780px) {
+    width: 780px;
+  }
 }

@@ -2,7 +2,7 @@
 
 h2 {
   margin-bottom: 15px;
-  font: 14px/1 "proximanova-regular";
+  font: 14px/1.5 "proximanova-regular";
   color: $secondary-heading-grey;
 
   .masthead & {
@@ -18,8 +18,24 @@ h2 {
     font: 60px/1 "proximanova-black";
     color: white;
 
+    @include between(640px, 780px) {
+      font-size: 45px;
+    }
+
+    @include less-than(640px) {
+      font-size: 24px;
+    }
+
     &.title-muted {
       font-size: 48px;
+
+      @include between(640px, 780px) {
+        font-size: 36px;
+      }
+
+      @include less-than(640px) {
+        font-size: 18px;
+      }
 
       a {
         text-decoration: none;
@@ -30,7 +46,8 @@ h2 {
           color: $dark-body-text;
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
           color: white;
 
           span {

@@ -9,8 +9,7 @@ column_count: two
 
 ![Me]({{ "images/me.jpg" | asset_path }})
 
-Photo by my fianc&eacute;e [@bluerocket](http://twitter.com/bluerocket), pictured left.
-"The Two Of Us" &bull; Millenium Square, Bristol &bull; 2009
+Photo by my fianc&eacute;e [@bluerocket](http://twitter.com/bluerocket), pictured left.<br/>"The Two Of Us" &bull; Millenium Square, Bristol &bull; 2009
 
 ## TLDR;
 

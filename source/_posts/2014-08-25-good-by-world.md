@@ -1,9 +1,12 @@
 ---
 
-title: Good-bye world&hellip;
-image: post_images/goodbye.jpg
+title: Good-bye
 
 ---
+
+![Abstraktion Office at Night]({% asset_path post_images/goodbye.jpg %})
+
+# Good-bye World&hellip;
 
 Abstraktion was a UK based digital product development company. We worked hard, had fun and delivered game-changing applications for brands like Universal Music, Domino Records, Spotify, The BBC, Channel 4, Toyota and Google.
 

@@ -15,7 +15,7 @@ h2 {
   h1 {
     margin-bottom: 15px;
     @include blocky-text;
-    font: 60px/1 "proximanova-black";
+    font: 54px/1 "proximanova-black";
     color: white;
 
     @include between(640px, 780px) {

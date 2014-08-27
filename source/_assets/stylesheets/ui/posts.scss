@@ -13,8 +13,12 @@
 
   img {
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     max-width: 100%;
+
+    @include greater-than(640px) {
+      margin-bottom: 50px;
+    }
   }
 
   p {
@@ -44,7 +48,7 @@
 }
 
 .view-side-content {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   font: 12px/1.5 "proximanova-semibold";
   color: $sidebar-text;
 
@@ -54,7 +58,7 @@
   }
 
   h2 {
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
   a {
@@ -64,4 +68,13 @@
 
 .view-content {
   max-width: 650px;
+
+  img {
+
+    @include greater-than(720px) {
+      width: 720px;
+      max-width: none;
+    }
+
+  }
 }

@@ -15,20 +15,15 @@ h2 {
   h1 {
     margin-bottom: 15px;
     @include blocky-text;
-    font: 54px/1 "proximanova-black";
+    font: 48px/1 "proximanova-black";
     color: white;
-
-    @include between(640px, 780px) {
-      font-size: 45px;
-    }
 
     @include less-than(640px) {
       font-size: 24px;
+      line-height: 1.25;
     }
 
     &.title-muted {
-      font-size: 48px;
-
       @include between(640px, 780px) {
         font-size: 36px;
       }

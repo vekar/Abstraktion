@@ -1,8 +1,17 @@
 @import "common";
 
 .masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   background: $body-background;
+
+  @include less-than(640px) {
+    > h2 {
+      position: absolute;
+      top: 82px;
+      left: 110px;
+      right: 10%;
+    }
+  }
 
   @include greater-than(640px) {
     position: fixed;
@@ -21,7 +30,7 @@
 
     > a {
       display: block;
-      margin-bottom: 50px;
+      margin-bottom: 25px;
       width: 54px;
       height: 54px;
       text-align: center;

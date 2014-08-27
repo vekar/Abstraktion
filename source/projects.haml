@@ -4,7 +4,9 @@ title: Work
 
 ---
 
-{% for project in site.projects limit: 100 %}
+{% assign projects = site.projects | reverse %}
+
+{% for project in projects %}
 
 .project-excerpt
 

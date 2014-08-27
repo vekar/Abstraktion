@@ -19,7 +19,7 @@ Not necessarily in that order.
 
 {% endcontentfor %}
 
-# "Hunter of the Great North"
+# "Hunter of the Great&nbsp;North"
 
 I'm a 24 year old Bristolian, currently hailing from the small North West town of Macclesfield. I'm a father of two boisterous and brilliant daughters, long-term fianc&eacute;e and compulsive nail-biter. Perhaps the three are related?
 

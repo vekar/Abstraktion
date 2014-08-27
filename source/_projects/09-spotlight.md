@@ -1,6 +1,0 @@
----
-
-title: Spotlight
-client: ETTA
-
----

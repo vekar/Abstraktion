@@ -4,6 +4,8 @@ title: Our own Cerebro
 
 ---
 
+![A screenshot of our Github scraper UI]({% asset_path post_images/cerebro.jpg %})
+
 # Geek hiring, or how we built our own Cerebro
 
 Finding and hiring talent was one of the biggest challenges Abstraktion faced over it's 3 year life span. This established a belief, in my mind, that the majority of the North West's developer's favoured PHP. We started to think of South Manchester based Ruby developers as Unicorns.

@@ -6,10 +6,10 @@ title: Abstraktion, Portfolio of Chris Garrett
 
 {% for post in site.posts limit: 5 %}
 
-.post
-
-  {{ post.content }}
+{{ post.content }}
 
 %a.post-link{ href: "{{ post.url }}" } Written on {{ post.date | date: "%-d %B %Y" }}
+
+%hr
 
 {% endfor %}

@@ -13,7 +13,7 @@ Photo by my fianc&eacute;e [@bluerocket](http://twitter.com/bluerocket), picture
 
 ## TLDR;
 
-[Rum](/), [Coffee](/), Walking, Riding, [Kids](/), Ruby, Javascript, Typography, Hotels, Restaurants, Music tech, Meetups, Speaking & Writing.
+[Rum](http://www.thewhiskyexchange.com/P-4548.aspx), [Coffee](http://shop.squaremilecoffee.com/), Walking, Riding, [Kids](https://secure.flickr.com/photos/bluerocketgirly/9014304775/), Ruby, Javascript, Typography, Hotels, Restaurants, Music tech, Meetups, Speaking & Writing.
 
 Not necessarily in that order.
 

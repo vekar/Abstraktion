@@ -16,20 +16,22 @@ All content and assets live in the [source directory](source). The Jekyll assets
 
 I serve the website directly from S3. Deployment comes courtesy of the [S3 website](https://github.com/laurilehmijoki/s3_website) Gem. In order to deploy, an `s3_website.yml` will need to be added to the root of the project, similar to this:
 
-  s3_id: ABC
-  s3_secret: XYZ
-  s3_bucket: 123
+```yml
+s3_id: ABC
+s3_secret: XYZ
+s3_bucket: 123
 
-  s3_endpoint: eu-west-1
+s3_endpoint: eu-west-1
 
-  gzip:
-    - .html
-    - .css
-    - .md
+gzip:
+  - .html
+  - .css
+  - .md
 
-  gzip_zopfli: true
+gzip_zopfli: true
 
-  s3_reduced_redundancy: true
+s3_reduced_redundancy: true
+```
 
 The website can then be built and deployed with: `bundle exec jekyll build && bundle exec s3_website push`.
 

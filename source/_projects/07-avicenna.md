@@ -17,4 +17,4 @@ We started by identifying which conditions different medications were used to tr
 
 The result? A heatmap of conditions, searchable by location, right down to street level.
 
-## [You can read more in my Medium Article, Mapping Britain's Illness](/)
+## [You can read more in my Medium Article, Mapping Britain's Illness](https://medium.com/@chrsgrrtt/mapping-britains-illness-40c0ed71152f)

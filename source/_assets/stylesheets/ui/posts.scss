@@ -26,6 +26,15 @@
     max-width: 540px;
   }
 
+  ol {
+    margin: 50px 0;
+
+    li {
+      margin: 6px 6px 6px 18px;
+      list-style: upper-roman;
+    }
+  }
+
   ul {
     @include column-count(2);
     @include column-gap(20px);
